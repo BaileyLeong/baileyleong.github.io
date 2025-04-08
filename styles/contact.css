@@ -13,6 +13,10 @@
   padding: 1rem;
   border: 1px solid red;
 }
+.header__title {
+  text-decoration: none;
+  color: #000;
+}
 .header__list {
   display: flex;
   flex-direction: row;
