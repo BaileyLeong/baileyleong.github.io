@@ -1,6 +1,6 @@
 @use "./partials/globals" as *;
 
-.main {
+.home {
   &__hero {
     display: flex;
     align-items: center;
@@ -13,8 +13,62 @@
     border-radius: 50%;
   }
 
+  &__hero-text {
+    width: 70%;
+  }
+
+  &__hero-skills {
+    margin: 0 auto;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 0.5rem;
+    max-height: 200px;
+  }
+
+  &__hero-skills-item {
+    list-style: none;
+    color: inherit;
+    margin-top: 0.26rem;
+    text-wrap: nowrap;
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
   &__hero-title {
     font-size: 2.8125rem;
     color: azure;
+    text-align: justify;
+    margin: 0.5 auto;
   }
+
+  &__resume-list {
+    font-size: 1.5rem;
+    color: rgb(90, 89, 89);
+    margin-top: 0.5rem;
+    max-width: 50%;
+  }
+
+  &__resume-blurb {
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__resume-button {
+    padding: 1.5rem;
+    margin-right: 3.5rem;
+  }
+}
+
+.resume__list-item {
+  list-style: none;
+  color: inherit;
+  margin-top: 0.26rem;
 }

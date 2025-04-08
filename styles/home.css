@@ -53,17 +53,65 @@
   color: magenta;
 }
 
-.main__hero {
+.home__hero {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
   background-color: rgb(232, 205, 217);
 }
-.main__hero-image {
+.home__hero-image {
   border-radius: 50%;
 }
-.main__hero-title {
+.home__hero-text {
+  width: 70%;
+}
+.home__hero-skills {
+  margin: 0 auto;
+  text-align: justify;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  gap: 0.5rem;
+  max-height: 200px;
+}
+.home__hero-skills-item {
+  list-style: none;
+  color: inherit;
+  margin-top: 0.26rem;
+  text-wrap: nowrap;
+  font-size: 1.5rem;
+  width: 50%;
+}
+.home__hero-title {
   font-size: 2.8125rem;
   color: azure;
+  text-align: justify;
+  margin: 0.5 auto;
+}
+.home__resume-list {
+  font-size: 1.5rem;
+  color: rgb(90, 89, 89);
+  margin-top: 0.5rem;
+  max-width: 50%;
+}
+.home__resume-blurb {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home__resume-button {
+  padding: 1.5rem;
+  margin-right: 3.5rem;
+}
+
+.resume__list-item {
+  list-style: none;
+  color: inherit;
+  margin-top: 0.26rem;
 }/*# sourceMappingURL=home.css.map */
