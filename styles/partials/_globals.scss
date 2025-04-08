@@ -24,6 +24,14 @@
     gap: 0.75rem;
     list-style: none;
   }
+
+  &__list-item {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      color: magenta;
+    }
+  }
 }
 
 .footer {
@@ -39,5 +47,13 @@
     flex-direction: row;
     gap: 0.75rem;
     list-style: none;
+  }
+  &__list-item {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: magenta;
+    }
   }
 }
