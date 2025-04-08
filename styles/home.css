@@ -57,22 +57,22 @@ body {
   color: magenta;
 }
 
-.home__hero {
+.hero {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
   background-color: rgb(232, 205, 217);
 }
-.home__hero-image {
+.hero__image {
   border-radius: 50%;
   max-width: 30%;
   width: 250px;
 }
-.home__hero-text {
+.hero__text {
   width: 70%;
 }
-.home__hero-skills {
+.hero__skills {
   margin: 0 auto;
   text-align: justify;
   width: 100%;
@@ -84,7 +84,7 @@ body {
   gap: 0.5rem;
   max-height: 200px;
 }
-.home__hero-skills-item {
+.hero__skills-item {
   list-style: none;
   color: inherit;
   margin-top: 0.26rem;
@@ -92,39 +92,39 @@ body {
   font-size: 1.5rem;
   width: 50%;
 }
-.home__hero-title {
+.hero__title {
   font-size: 2.8125rem;
   text-wrap: nowrap;
   color: #ffffff;
   text-align: justify;
 }
-.home__resume-list {
+
+.resume__list {
   font-size: 1.5rem;
   color: #000;
   margin-bottom: 0.5rem;
   max-width: 60%;
 }
-.home__resume-blurb {
+.resume__blurb {
   margin: 0 auto;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.home__resume-button {
+.resume__button {
   padding: 1.5rem;
   margin-right: 3.5rem;
   border-radius: 0.3125rem;
   border: 1px solid #808080;
   font-size: 1rem;
 }
-.home__resume-button:hover {
+.resume__button:hover {
   background-color: rgb(232, 205, 217);
   color: white;
   border: 1px solid transparent;
   cursor: pointer;
 }
-
 .resume__list-item {
   list-style: none;
   color: inherit;
