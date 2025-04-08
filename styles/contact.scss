@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 0.5rem;
+    font-size: 1rem;
   }
 
   &__form-input {
@@ -24,6 +25,7 @@
     resize: vertical;
     border-radius: 0.3125rem;
     border: 1px solid #808080;
+    font-size: 0.88rem;
   }
 
   &__form-button {
