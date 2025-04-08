@@ -50,7 +50,7 @@
 
   &__resume-list {
     font-size: 1.5rem;
-    color: rgb(90, 89, 89);
+    color: #000;
     margin-bottom: 0.5rem;
     max-width: 60%;
   }
@@ -66,6 +66,16 @@
   &__resume-button {
     padding: 1.5rem;
     margin-right: 3.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #808080;
+    font-size: 1rem;
+
+    &:hover {
+      background-color: rgb(232, 205, 217);
+      color: white;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
   }
 }
 
