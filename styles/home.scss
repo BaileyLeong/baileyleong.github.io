@@ -11,6 +11,8 @@
 
   &__hero-image {
     border-radius: 50%;
+    max-width: 30%;
+    width: 250px;
   }
 
   &__hero-text {
@@ -41,16 +43,16 @@
 
   &__hero-title {
     font-size: 2.8125rem;
+    text-wrap: nowrap;
     color: azure;
     text-align: justify;
-    margin: 0.5 auto;
   }
 
   &__resume-list {
     font-size: 1.5rem;
     color: rgb(90, 89, 89);
-    margin-top: 0.5rem;
-    max-width: 50%;
+    margin-bottom: 0.5rem;
+    max-width: 60%;
   }
 
   &__resume-blurb {
@@ -58,7 +60,7 @@
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   &__resume-button {
